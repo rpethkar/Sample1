@@ -1,0 +1,25 @@
+{
+  "name": "CassaSample",
+  "version": "0.0.1",
+  "type": "flogo:activity",
+  "description": "Cass Connection activity description",
+  "version": "0.0.1",
+  "title": "CassaDB",
+
+  "inputs":[
+    {
+      "name": "ClusterIP",
+      "type": "string"
+    },
+	{
+      "name": "Keyspace",
+      "type": "string"
+    }	
+  ],
+  "outputs": [
+    {
+      "name": "result",
+      "type": "string"
+    }
+  ]
+}
